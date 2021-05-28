@@ -9,7 +9,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin_gvanshalaj:Sunday_1998@cluster0.yhptq.mongodb.net/feedback", { useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://Username:Password@cluster0.yhptq.mongodb.net/feedback", { useUnifiedTopology: true });
 
 // -*-*-*-*-*-*-*-*Routs-*-*-*-*-*-*-*-*
 
